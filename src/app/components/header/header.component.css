@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #dde1e6;
+  padding: 10px;
+}
+.header_container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.header_button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header_button-icon {
+  width: 20px;
+  height: 20px;
+}
+.header_btn {
+  width: 150px;
+  height: 34.4px;
+  border: none;
+  color: white;
+  background-color: #583bb6;
+  border-radius: 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.header_devices {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+.header_devices-icon {
+  width: 25px;
+  height: 25px;
+}/*# sourceMappingURL=header.component.css.map */

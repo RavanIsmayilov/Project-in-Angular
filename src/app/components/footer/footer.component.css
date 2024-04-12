@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+.footer_icon {
+  width: 30px;
+  height: 30px;
+}
+.footer_icons {
+  display: flex;
+  gap: 50px;
+}/*# sourceMappingURL=footer.component.css.map */

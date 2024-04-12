@@ -1,0 +1,110 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &_title{
+        height: 120px;
+
+        &-text{
+            font-size: 50px;
+
+            &-link{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+    &_nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    &_lists{
+        list-style-type: none;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding: 0;
+
+        &-link{
+            text-decoration:none;
+            color:black;
+            opacity: 0.7;
+        }
+    }
+
+    &_images{
+       
+        &-image{
+            height: 850px;
+        }
+    }
+
+    &_me{
+        width: 1300px;
+        display: flex;
+        gap: 100px;
+    }
+
+    &_info{
+
+        &-title{
+            margin-bottom: 24px;
+            font-size: 40px;
+
+        }
+        
+        &-text{
+            font-family:'Times New Roman', Times, serif;
+            font-size: 22px;
+            line-height: 40px;
+            width: 520px;
+
+        }
+    }
+
+    &_input{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &-email{
+            width: 470px;
+            padding: 15px;
+            background-color: #f1f1f1;
+            border: none;
+        }
+
+        &-message{
+            width: 470px;
+            padding: 15px;
+            background-color: #f1f1f1;
+            border: none;
+            height: 70px;
+        }
+    }
+
+    &_button{
+        width: 140px;
+        padding: 17px;
+        background-color: #353f48;
+        color: white;
+        border: none;
+        margin-top: 25px;
+        cursor: pointer;
+    }
+
+    &_contact{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+}

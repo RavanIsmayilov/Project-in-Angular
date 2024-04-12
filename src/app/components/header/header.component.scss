@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #dde1e6;
+    padding: 10px;
+
+    &_container{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    &_button{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        &-icon{
+            width: 20px;
+            height: 20px;
+        }
+
+    }
+    &_btn{
+        width: 150px;
+        height: 34.4px;
+        border: none;
+        color: white;
+        background-color: #583bb6;
+        border-radius: 15px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    &_devices{
+        display: flex;
+        gap: 15px;
+        cursor: pointer;
+
+        &-icon{
+            width: 25px;
+            height: 25px;
+        }
+    }
+}

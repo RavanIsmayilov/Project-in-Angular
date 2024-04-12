@@ -1,0 +1,44 @@
+.women {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.women_title {
+  height: 120px;
+}
+.women_title-text {
+  font-size: 50px;
+}
+.women_title-text-link {
+  text-decoration: none;
+  color: black;
+}
+.women_nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.women_lists {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0;
+}
+.women_lists-link {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+}
+.women_images {
+  width: 1300px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=women.component.css.map */

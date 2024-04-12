@@ -1,0 +1,87 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about_title {
+  height: 120px;
+}
+.about_title-text {
+  font-size: 50px;
+}
+.about_title-text-link {
+  text-decoration: none;
+  color: black;
+}
+.about_nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.about_lists {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0;
+}
+.about_lists-link {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+}
+.about_images-image {
+  height: 850px;
+}
+.about_me {
+  width: 1300px;
+  display: flex;
+  gap: 100px;
+}
+.about_info-title {
+  margin-bottom: 24px;
+  font-size: 40px;
+}
+.about_info-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  line-height: 40px;
+  width: 520px;
+}
+.about_input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about_input-email {
+  width: 470px;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border: none;
+}
+.about_input-message {
+  width: 470px;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border: none;
+  height: 70px;
+}
+.about_button {
+  width: 140px;
+  padding: 17px;
+  background-color: #353f48;
+  color: white;
+  border: none;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.about_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=about.component.css.map */
